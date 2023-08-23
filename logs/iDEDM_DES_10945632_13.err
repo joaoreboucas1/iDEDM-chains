@@ -1,0 +1,32 @@
+cp: cannot create regular file ‘/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/external_modules/data/.gitignore’: File exists
+cp: cannot create regular file ‘/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/external_modules/code/.gitignore’: File exists
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[51293,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+

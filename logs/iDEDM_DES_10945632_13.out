@@ -1,0 +1,192 @@
+##################### JOB INFORMATION ############################
+Running on host sdumont1083
+Time is Ter Ago 22 21:03:53 -03 2023
+Directory is /scratch/eubd/joao.reboucas/cocoa_new/Cocoa
+Slurm job NAME is iDEDM_DES
+Slurm job ID is 10945632
+ACTIVATING GLOBAL ENVIRONMENT
+ACTIVATING PRIVATE ENVIRONMENT
+Warning: directory /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/projects/coupled_de_desy3/scripts DOES NOT exists.
+Warning: directory /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/projects/coupled_de_desy3/scripts DOES NOT exists.
+Warning: directory /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/projects/coupled_de_desy3/interface DOES NOT exists.
+Warning: directory /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/projects/coupled_de_desy3/likelihood DOES NOT exists.
+Warning: directory /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/projects/coupled_de_desy3/data DOES NOT exists.
+STARTING CHAIN
+[0 : output] Output to be read-from/written-into folder './projects/coupled_de_desy3/outputs', with prefix 'MCMC13'
+[0 : prior] *WARNING* External prior 'SZ' loaded. Mind that it might not be normalized!
+[0 : camb] `camb` module loaded successfully from /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/external_modules/code/CAMB-iDEDM/camb
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+[0 : planck_2018_lowl.ee] `clik` module loaded successfully from /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/lib/python/site-packages/clik
+VM TESTING,  planck_2018
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+Initializing SimAll
+----
+
+  simall simall_EE_BB_TE
+----
+
+  simall simall_EE_BB_TE
+----
+
+  simall simall_EE_BB_TE
+----
+
+  simall simall_EE_BB_TE
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik' on test data. got -197.99 expected -197.99 (diff -4.1778e-08)
+----
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+[0 : planck_2018_lowl.tt] `clik` module loaded successfully from /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/lib/python/site-packages/clik
+VM TESTING,  planck_2018
+----
+
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+----
+
+  gibbs_gauss b13c8fda-1837-41b5-ae2d-78d6b723fcf1
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/low_l/commander/commander_dx12_v3_2_29.clik' on test data. got -11.6257 expected -11.6257 (diff -1.07424e-09)
+----
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+[0 : planck_2018_highl_plik.ttteee] `clik` module loaded successfully from /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/lib/python/site-packages/clik
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+----
+
+  smica
+----
+
+  smica
+----
+
+  smica
+----
+
+  smica
+Checking likelihood './external_modules/data/planck/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+Checking likelihood './external_modules/data/planck/plc_3.0/hi_l/plik/plik_rd12_HM_v22b_TTTEEE.clik' on test data. got -1172.47 expected -1172.47 (diff -4.34052e-07)
+----
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+[0 : planck_2018_lensing.clik] `clik` module loaded successfully from /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/lib/python/site-packages/clik
+VM TESTING,  planck_2018
+VM TESTING,  planck_2018
+Checking lensing likelihood './external_modules/data/planck/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood './external_modules/data/planck/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood './external_modules/data/planck/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+Checking lensing likelihood './external_modules/data/planck/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+[0 : prior] *WARNING* There are unbounded parameters (['tau', 'A_planck', 'calib_100T', 'calib_217T', 'gal545_A_100', 'gal545_A_143', 'gal545_A_143_217', 'gal545_A_217', 'galf_TE_A_100', 'galf_TE_A_100_143', 'galf_TE_A_100_217', 'galf_TE_A_143', 'galf_TE_A_143_217', 'galf_TE_A_217']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[3 : mcmc] Getting initial point... (this may take a few seconds)
+[2 : mcmc] Getting initial point... (this may take a few seconds)
+[1 : mcmc] Getting initial point... (this may take a few seconds)
+[0 : mcmc] Getting initial point... (this may take a few seconds)
+[3 : model] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[1 : model] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[0 : model] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[2 : model] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[1 : exception handler] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[0 : exception handler] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[2 : exception handler] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[3 : exception handler] *ERROR* Could not find random point giving finite posterior after 10000 tries
+[2 : exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/bin/cobaya-run", line 33, in <module>
+    sys.exit(load_entry_point('cobaya', 'console_scripts', 'cobaya-run')())
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 203, in run_script
+    run(info, **arguments.__dict__)
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 141, in run
+    sampler = sampler_class(updated_info["sampler"][sampler_name],
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/sampler.py", line 269, in __init__
+    self.initialize()
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/samplers/mcmc/mcmc.py", line 164, in initialize
+    self.model.get_valid_point(max_tries=min(self.max_tries.value, int(1e7)),
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/model.py", line 624, in get_valid_point
+    raise LoggedError(self.log, "Could not find random point giving finite "
+cobaya.log.LoggedError: Could not find random point giving finite posterior after 10000 tries
+-------------------------------------------------------------
+
+[0 : exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/bin/cobaya-run", line 33, in <module>
+    sys.exit(load_entry_point('cobaya', 'console_scripts', 'cobaya-run')())
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 203, in run_script
+    run(info, **arguments.__dict__)
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 141, in run
+    sampler = sampler_class(updated_info["sampler"][sampler_name],
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/sampler.py", line 269, in __init__
+    self.initialize()
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/samplers/mcmc/mcmc.py", line 164, in initialize
+    self.model.get_valid_point(max_tries=min(self.max_tries.value, int(1e7)),
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/model.py", line 624, in get_valid_point
+    raise LoggedError(self.log, "Could not find random point giving finite "
+cobaya.log.LoggedError: Could not find random point giving finite posterior after 10000 tries
+-------------------------------------------------------------
+
+[1 : exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/bin/cobaya-run", line 33, in <module>
+    sys.exit(load_entry_point('cobaya', 'console_scripts', 'cobaya-run')())
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 203, in run_script
+    run(info, **arguments.__dict__)
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 141, in run
+    sampler = sampler_class(updated_info["sampler"][sampler_name],
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/sampler.py", line 269, in __init__
+    self.initialize()
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/samplers/mcmc/mcmc.py", line 164, in initialize
+    self.model.get_valid_point(max_tries=min(self.max_tries.value, int(1e7)),
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/model.py", line 624, in get_valid_point
+    raise LoggedError(self.log, "Could not find random point giving finite "
+cobaya.log.LoggedError: Could not find random point giving finite posterior after 10000 tries
+-------------------------------------------------------------
+
+[3 : exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/.local/bin/cobaya-run", line 33, in <module>
+    sys.exit(load_entry_point('cobaya', 'console_scripts', 'cobaya-run')())
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 203, in run_script
+    run(info, **arguments.__dict__)
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/run.py", line 141, in run
+    sampler = sampler_class(updated_info["sampler"][sampler_name],
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/sampler.py", line 269, in __init__
+    self.initialize()
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/samplers/mcmc/mcmc.py", line 164, in initialize
+    self.model.get_valid_point(max_tries=min(self.max_tries.value, int(1e7)),
+  File "/scratch/eubd/joao.reboucas/cocoa_new/Cocoa/cobaya/cobaya/model.py", line 624, in get_valid_point
+    raise LoggedError(self.log, "Could not find random point giving finite "
+cobaya.log.LoggedError: Could not find random point giving finite posterior after 10000 tries
+-------------------------------------------------------------
+
+CHAIN FINISHED
+Warning: directory /scratch/eubd/joao.reboucas/cocoa_new/Cocoa/projects/coupled_de_desy3/scripts DOES NOT exists.
