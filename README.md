@@ -27,6 +27,7 @@ Planck: Planck 2018 TT, TE, EE full spectra + CMB Lensing
 17 - LCDM / Planck + SNe
 18 - LCDM- / Planck + SNe
 19 - LCDM+ / Planck + SNe
-20 - LCDM / Planck + BAO + SNe
-21 - LCDM- / Planck + BAO + SNe
-22 - LCDM+ / Planck + BAO + SNe
+20 - LCDM / LSST-Y1, LCDM dv
+21 - LCDM- / LSST-Y1, LCDM dv
+22 - LCDM / LSST-Y1, LCDM- dv
+23 - LCDM- / LSST-Y1, LCDM- dv
